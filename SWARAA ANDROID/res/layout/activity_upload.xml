@@ -1,0 +1,75 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    tools:context=".Upload" >
+
+    <TextView
+        android:id="@+id/messageText"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/upload_audio"
+        android:layout_below="@+id/upload_audio"
+        android:layout_marginTop="14dp"
+        android:gravity="bottom"
+        android:text=""
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Click to Upload" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignLeft="@+id/upload_audio"
+        android:text="Title"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Upload a Song"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uploadButton"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="71dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/upload_audio"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/title"
+        android:layout_centerVertical="true"
+        android:text="Select File" />
+    
+</RelativeLayout>

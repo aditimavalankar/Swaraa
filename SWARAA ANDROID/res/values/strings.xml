@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="title_activity_dbadapter">DBAdapter</string>
+    <string name="title_activity_adapter">Adapter</string>
+    <string name="app_name">SwaraaLite</string>
+    <string name="upload">Upload</string>
+    <string name="username">UserName</string>
+    <string name="cancel">Cancel</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title_activity_song_page">SongPage</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="button_comment">Comment</string>
+    <string name="comment">Comment on this song</string>
+    <string name="wcomment">Your Comment</string>
+    <string name="button_like">Like</string>
+    <string name="play">PLAY</string>
+    <string name="stop">STOP</string>
+    <string name="pause">PAUSE</string>
+    <string name="song_page">Song Page</string>
+    <string name="dislike">Dislike</string>
+    <string name="like">Like</string>
+    <string name="title_activity_song">Song</string>
+    <string name="title_activity_playaudio">Playaudio</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <string name="title_activity_upload">Upload</string>
+	<string name="num_likes">5</string>
+	<string name="num_dislikes">5</string>
+	<string name="head">Login To Swaraa</string>
+	<string name="back">BACK</string>
+	
+</resources>
